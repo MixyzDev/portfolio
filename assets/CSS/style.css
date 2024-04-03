@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #181818;
+    color: white;
+    font-family: "Anonymous Pro";
+}
+
+header {
+    position: fixed;
+    background-color: #181818;
+    width: 50px;
+    height: 50px;
+}
+
+.container-main-descri {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dlcv {
+    margin: auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #181818;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.container-reso {
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.reso {
+    display: flex;
+}
+
+
+
+.logores {
+    width: 35%;
+}
+
+.logo-reso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barre {
+    margin: auto;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.darkh1 {
+    color: white;
+    width: 40%;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 25px;
+    height: 30px;
+}
+
+.container-content {
+    width: 30%;
+    margin-left: 100px;
+}
+
+.container-apropos {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descri {
+    width: 80%;
+    height: 100px;
+    font-family: "Raleway", sans-serif;
+}
+
+.push-me {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.lien {
+    margin-right: 20px;
+    width: 50%;
+    height: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio {
+    margin-left: 100px;
+}
+
+.container-portfolio {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+
+}
+
+#pf {
+    background-color: white;
+    color: #181818;
+}
+
+.container-reso {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.container-contact {
+    margin-top: 10%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    height: 100vh;
+}
+
+.profil {
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(-0vw);
+    }
+
+    100% {
+        transform: translateX(-160vw);
+    }
+}
+
+.logo-skills {
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    animation: scrolling 20s linear infinite;
+}
+
+.logo-skills img:hover {
+    width: 150%;
+}
+
+.projet-dev {
+    display: flex;
+}
+
+.projet-graph {
+    display: flex;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+}
+
+.mess {
+    margin: 20px;
+}
+
+textarea {
+    background-color: transparent;
+    color: white;
+}
+
+.inp button {
+    margin: 20px;
+}
+
+.container-contact h2 {
+    border-bottom: 1px solid white;
+    width: 100%;
+    line-height: 150px;
+}
+
+.contact-content {
+    width: 40%;
+}
+
+.container-descri-projet {
+    margin: auto;
+    color: #181818;
+    background-color: white;
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rota {
+    width: 50%;
+}
+
+.encre {
+    width: 10%;
+}
+
+.abs {
+    position: absolute;
+}
+
+.container-relative {
+    flex: 2;
+    height: fit-content;
+    position: relative;
+
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.pos {
+    left: 25%;
+    opacity: 0.1;
+    top: 50px;
+}
+
+.line-vert {
+    width: 1px;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.container-flex {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.size-1 {
+    flex: 1;
+}
