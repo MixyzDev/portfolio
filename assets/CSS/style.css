@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     background-color: #181818;
     color: white;
     font-family: "Anonymous Pro";
@@ -14,6 +14,7 @@ header {
     position: fixed;
     background-color: #181818;
     width: 100%;
+    z-index: 999;
 }
 
 .container-header {
@@ -25,14 +26,14 @@ header {
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
+    
     top: 0;
     right: -250px;
     background-color: white;
     opacity: 0.8;
     padding-top: 60px;
     transition: right 0.5s ease;
-    
+
 }
 
 .burger a {
@@ -383,11 +384,12 @@ footer {
     }
 
     .container-content {
-        margin-left: 60px;
-        width: 100%;
+        padding-left:30px;
+        width: calc(100% - 30px);
         display: block;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
 
     .wel {
@@ -396,7 +398,7 @@ footer {
 
     h3 {
         font-size: 20px;
-        width: 200%;
+        width: 100%;
     }
 
     .container-main-descri {
@@ -409,16 +411,17 @@ footer {
 
     footer {
         width: 100%;
+        height: 5vh;
     }
 
     .profil {
         width: 100%;
-        height: 50vh;
-        margin-top: 40px;
+        height: 60vh;
+        margin-top: 50px;
     }
 
     .logo-skills {
-        width: 100%;
+        width: 90%;
     }
 
     .logo-skills img {
@@ -426,8 +429,9 @@ footer {
     }
 
     .container-apropos {
-        width: 100%;
-        margin: 30px;
+        width: calc(100% - 60px);
+        margin: 30px 0;
+        padding: 0 30px;
         height: 100%;
     }
 
@@ -440,11 +444,15 @@ footer {
 
     .descri {
         height: 100%;
-        width: 100%;
+        width: 70vw;
     }
 
     .logores {
-        height: 20px;
+        height: 70px;
+    }
+
+    .foll {
+        width: 100px;
     }
 
     .container-reso{
@@ -469,7 +477,8 @@ footer {
     }
 
     .portfolio {
-        margin: 30px;
+        margin: 30px 0;
+        padding : 0 30px;
     }
 
     .projet-dev div img {
@@ -485,6 +494,40 @@ footer {
     }
 
     .container-contact {
-        margin: 30px;
+        margin: 30px 0;
+        padding : 0 30px;
+        gap: 30px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    input {
+        width: 130px;
+        margin: auto;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inp button {
+        margin: auto;
+    }
+
+    .inp {
+        height: 100vh;
+    }
+
+    .line-vert {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }

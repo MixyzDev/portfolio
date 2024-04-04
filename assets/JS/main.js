@@ -5,10 +5,12 @@ let closeBtn = document.getElementById("closeBtn")
 openBtn.onclick = openNav;
 closeBtn.onclick = closeNav;
 
-function openNav() {
+function openNav(e) {
+    e.preventDefault();
     burger.classList.add("active");
 }
 
-function closeNav() {
+function closeNav(e) {
+    e.preventDefault();
     burger.classList.remove("active")
 }
