@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    padding-bottom: 100px;
     background-color: #181818;
     color: white;
     font-family: "Anonymous Pro";
@@ -314,7 +315,6 @@ textarea {
 footer {
     bottom: 0;
     width: 100%;
-    height: 80px;
     position: fixed;
     background-color: #181818;
     display: flex;
@@ -371,4 +371,118 @@ footer {
 
 .size-1 {
     flex: 1;
+}
+
+@media(max-width : 768px) {
+
+    header {
+        width: 100vw;
+        top: 0;
+    }
+
+    .container-content {
+        margin-left: 60px;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wel {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+        width: 200%;
+    }
+
+    .container-main-descri {
+        flex-direction: column-reverse;
+    }
+
+    .push-me {
+        width: 80%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .profil {
+        width: 100%;
+        height: 50vh;
+        margin-top: 40px;
+    }
+
+    .logo-skills {
+        width: 100%;
+    }
+
+    .logo-skills img {
+        width: 80%;
+    }
+
+    .container-apropos {
+        width: 100%;
+        margin: 30px;
+        height: 100%;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .descri {
+        height: 100%;
+        width: 100%;
+    }
+
+    .logores {
+        height: 20px;
+    }
+
+    .container-reso{
+        width: 100%;
+        justify-content: space-around;
+        writing-mode: horizontal-tb;
+    }
+
+    .reso {
+        display: flex;
+        width: 100%;
+    }
+
+    .container-reso {
+        margin: 0;
+        height: auto;
+    }
+
+    .barre {
+        display: none;
+
+    }
+
+    .portfolio {
+        margin: 30px;
+    }
+
+    .projet-dev div img {
+        width: 100%;
+    }
+
+    .container-descri-projet {
+        height: 25vh;
+    }
+
+    .projet-graph div img{
+        width: 100%;
+    }
+
+    .container-contact {
+        margin: 30px;
+    }
 }
